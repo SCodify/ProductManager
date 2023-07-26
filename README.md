@@ -1,5 +1,6 @@
 # ProductManager - Proyecto de desarrolo back-end
 
+
 ### Entregable - ES6 y manejo de archivos con FileSystem
 
 #### Consigna:
@@ -53,3 +54,5 @@
 
 - Link al repositorio de Github con el proyecto completo, el cual debe incluir:
   - Carpeta `/src` con `app.js` dentro y tu `ProductManager` dentro.
+  - `package.json` con la info del proyecto.
+  - NO INCLUIR LOS `node_modules` generados.
