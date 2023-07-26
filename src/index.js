@@ -32,16 +32,6 @@ const testing = async () => {
         90
     )
 
-    /* Producto con código repetido */
-    // await productManager.addProduct(
-    //     'producto prueba 4',
-    //     'Este es un producto de prueba 4',
-    //     10,
-    //     'Sin imagen',
-    //     'ghi789',
-    //     1
-    // )
-
     await productManager.addProduct(
         'producto prueba 4',
         'Este es un producto de prueba 4',
@@ -168,13 +158,11 @@ const testing = async () => {
         11
     )
 
-    /* Prueba de producto con id inexistente */
     await productManager.getProductById(30)
     
     const consulta2 = await productManager.getProducts()
     console.log(consulta2)
     
-    /* Prueba de update de produto con id 1 */
     await productManager.updateProduct(1, { description:"Esta es una prueba de update" })
 
     await productManager.updateProduct(1, { title:"UPDATE" })
@@ -182,7 +170,6 @@ const testing = async () => {
     const consulta3 = await productManager.getProducts()
     console.log(consulta3)
 
-    /* Prueba de borrado de produto con id 2 */
     await productManager.deleteProduct(2)
     
     const consulta4 = await productManager.getProducts()

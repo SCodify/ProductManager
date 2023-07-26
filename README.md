@@ -26,7 +26,7 @@
 
 #### Formato del entregable
 
- - Archivo de javascript con el nombre ProductManager.js.
+ - Archivo de javascript con el nombre `ProductManager.js`.
 
 ---
 
